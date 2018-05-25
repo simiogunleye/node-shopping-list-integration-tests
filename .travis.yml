@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: stark-journey-94962
+  provider: heroku
+  api_key:
+    secure: k9xwRR2sp21RSiUWLqtDFYaUIo4nnWcIxJzsU6myC5GIdKaCsC9FDHt416dBxrM7Jq5qmKqrJ2I2RFiWmRvfK8A7ovtNvYs5CPUnBhfR5/7VYiJHGorFGmIXqxOBqWgPviBop7f0GXdbLODTyw6Zupr6DW13v7sVBJ/XLOSbUE4LUkYoGzIIlpqReBKZjkFZusSlmMLGFQipBYvhSpF/SoPhg4+QEIgDH564G48ZijCrD4shJQEuxlSjOUGqU2LIW7DYKctDZWL4C+m6ckbYmxAoZYC9pAUH3OcPy4z+aV1dd+ZTR8XPxH5ELa//Po9uhk5qaAJRcNNXOBwIxguLAV1OERT1GTxwJvVAnloNeRWhCubknSxmsN7WucESmhSGFTHS+Dh/ViQj604uYXfSIzCQTMSr/ZdFQEg9nCpY45FVqCw670OdG9YHLK2gQGoGIZv6tKkXnDrMvw0OpicMP5pQcRQB9ADnTGYgiLlSb9ydqfm53pofRB1lY0f+V5Uu9JUj7QlEAV97ZpU+c1e8fyAcsJ44GCuZV0Hn+RqAmyiBe1Tkd49rbzFiKw4CR1+9ailKSq0h0Jgjiol9FN3MT6exouBFgysp6V3OwoCv2KgXkqZg1bsy/YKwrXnY6Sf44JzMzRQOdEWDzdG0FHTV1gEQKd8Oe5v7VGSndPvwHkw=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: simiogunleye/node-shopping-list-integration-tests
+    branch: test-for-recipes
