@@ -56,7 +56,7 @@ describe('Recipes', function() {
 		};
 
 		return chai.request(app)
-		.get('.recipes')
+		.get('/recipes')
 		.then(function(res) {
 			updateData.id = res.body[0].id;
 
